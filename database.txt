@@ -1,0 +1,7 @@
+create database edubridgee;
+use edubridgee;
+create table userss(userid varchar(20) not null,password varchar(20)not null,
+fname varchar(20)not null,lname varchar(20)not null,email varchar(20)not null,
+primary key (userid)
+); 
+select * from userss;
